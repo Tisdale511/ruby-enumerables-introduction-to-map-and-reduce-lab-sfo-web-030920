@@ -50,10 +50,12 @@ def reduce_to_all_true(source_array)
   while idx < source_array.length do
     if source_array[idx] == true
       source_array[idx] = true
+    else
+      return false
+    
     end
     idx += 1
   end
-  source_array
 end
 
 
