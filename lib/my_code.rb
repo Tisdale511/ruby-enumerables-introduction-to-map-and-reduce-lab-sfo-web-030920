@@ -42,7 +42,7 @@ def reduce_to_total(source_array)
    count += source_array[idx]
    idx += 1
  end
- 
+ return count
 end
 
 
