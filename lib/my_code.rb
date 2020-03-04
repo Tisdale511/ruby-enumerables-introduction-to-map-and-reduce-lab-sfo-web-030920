@@ -43,6 +43,7 @@ def reduce_to_total(source_array)
    idx += 1
  end
  return count
+ binding.pry
 end
 
 def reduce_to_all_true(source_array)
