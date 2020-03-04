@@ -39,7 +39,7 @@ def reduce_to_total(source_array)
  count = starting_point
  idx = 0
  while idx < source_array.length do
-   starting_point += source_array[idx]
+   count += source_array[idx]
    idx += 1
  end
  
