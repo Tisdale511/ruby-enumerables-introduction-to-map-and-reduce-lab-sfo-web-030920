@@ -42,8 +42,7 @@ def reduce_to_total(source_array)
    count += source_array[idx]
    idx += 1
  end
- return count
- binding.pry
+ count
 end
 
 def reduce_to_all_true(source_array)
