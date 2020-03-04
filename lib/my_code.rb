@@ -35,7 +35,7 @@ def map_to_square(source_array)
   sqr_arr
 end
 
-def reduce_to_total(source_array, starting_point = 0)
+def reduce_to_total(source_array, starting_point = 100)
  count = starting_point
  idx = 0
  while idx < source_array.length do
